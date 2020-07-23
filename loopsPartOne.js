@@ -1,17 +1,18 @@
+
+    // Loops Practice - Part One
+
+    // Building an Exercise Routine
+
+    // You are going to build a program that can help you keep track of your exercise routine.
+
+    // Your routine can be represented by an array of each activity.
+    // let routine = ["situp", "situp", "situp", "situp", "pushup", "pushup", "pushup", "pushup"];
+
+    // Use a while loop to complete every exercise.
+
+    
 /*
-    Loops Practice - Part One
 
-    Building an Exercise Routine
-
-    You are going to build a program that can help you keep track of your exercise routine.
-
-    Your routine can be represented by an array of each activity.
-    let routine = ["situp", "situp", "situp", "situp", "pushup", "pushup", "pushup", "pushup"];
-
-    Use a while loop to complete every exercise.
-*/
-
-/*
     Note, To run the tests for an exercise run the entire file!
     Do not just highlight a section and try to run it, because the tests will
     throw an exception 
@@ -21,7 +22,7 @@
 
     Remember to Save the file before you click Run Code!
 */
-
+  
 /* ---------------------------------------------------------------------------
     Exercise One
 
@@ -43,9 +44,12 @@
 */
 
 function addExerciseToRoutine(routine, exercise, numRepetitions) {
-  // Your Code Here!
+  let index = 0 
+  while (index < numRepetitions ) {
+    routine.push(exercise)
+    index++
+  }
 }
-
 /* 
    -------TESTS---------------------------------------------------------------
    Run these commands to make sure you did it right. They should all be true.
@@ -97,7 +101,10 @@ function doAction(action) {
 */
 
 function performRoutine(routine) {
-  // Your Code Here!
+ let index = 0
+ while (index < actionsPerformed)
+ routine.push(actionsPerformed)
+ index++
 }
 
 /* 
